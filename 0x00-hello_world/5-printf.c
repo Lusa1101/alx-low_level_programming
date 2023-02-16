@@ -1,8 +1,9 @@
+#include<stdio.h>
+
 /**
  * main - puts string on the screen
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
