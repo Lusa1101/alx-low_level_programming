@@ -1,9 +1,13 @@
-/*A program that prints out a string of characters*/
+/**
+ * main - Print out a string of characters
+ *
+ * Return: Always 0 (Success)
+ */
 
 #include<stdio.h>
 
 int main(void)
 {
-  puts("\"Programming is like building a multilingual puzzle");
-  return (0);
+ puts("\"Programming is like building a multilingual puzzle");
+ return (0);
 }
