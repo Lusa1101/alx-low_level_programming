@@ -1,0 +1,14 @@
+The general knowledge for 0x01 under low_level_programming
+->Arithmetic operators
+->Logical operators
+->Relational operators
+->TRUE & FALSE values in C
+->The if and if...else statements
+->Comments
+->char, int, unsigned int variable types
+->Assigning values to variables
+->Printing values of variables to type char, int, unsigned int with printf
+->The while loop
+->Using variables with the while loop
+->What is the ASCII cahracter set
+->The purpose of the gcc falgs -m32 and -m64
