@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 
 /**
  * main - converts a char to a lower case
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-for(int i = 'A'; i <= 'Z'; i++)
+for (int i = 'A'; i <= 'Z'; i++)
 {
 i = tolower(i);
 putchar(i);
