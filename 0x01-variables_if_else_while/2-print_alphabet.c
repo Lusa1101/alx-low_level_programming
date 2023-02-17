@@ -8,10 +8,12 @@
  */
 int main(void)
 {
-for (int i = 'A'; i <= 'Z'; i++)
+int i = 'A';
+while (i <= 'Z')
 {
 i = tolower(i);
 putchar(i);
+i++;
 }
 return (0);
 }
