@@ -8,14 +8,13 @@
  */
 int main(void)
 {
-string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int i = 0;
+int i = 'A';
 
-while (i < alphabet.length())
+while (i <= 'Z')
 {
-alphabet[i] = tolower(alphabet[i]);
+i = tolower(i);
+putchar(i);
 i++;
 }
-printf("%s\n", alphabet);
 return (0);
 }
