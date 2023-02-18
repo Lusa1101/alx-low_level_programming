@@ -10,15 +10,14 @@ int main(void)
 int x = 'A';
 while (x <= 'Z')
 {
-x = tolower(x);
-putchar(x);
+putchar(x + 32);
 x++;
 }
 while (x <= 'Z')
 {
-x = toupper(x);
 putchar(x);
 x++;
 }
+putchar('\n');
 return (0);
 }
