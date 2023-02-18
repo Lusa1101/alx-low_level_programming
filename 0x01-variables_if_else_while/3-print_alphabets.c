@@ -13,6 +13,7 @@ while (x <= 'Z')
 putchar(x + 32);
 x++;
 }
+x = 'A';
 while (x <= 'Z')
 {
 putchar(x);
