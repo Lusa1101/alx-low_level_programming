@@ -12,7 +12,7 @@ int i = 90;
 while (i >= 65)
 {
 putchar(i + 32);
-i++;
+i--;
 }
 putchar('\n');
 return (0);
