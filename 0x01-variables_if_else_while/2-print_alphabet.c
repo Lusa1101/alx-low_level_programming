@@ -10,7 +10,8 @@ int main(void)
 int i = 65;
 while (i <= 90)
 {
-putchar(tolower(i));
+i = tolower(i);  
+putchar(i);
 i++;
 }
 return (0);
