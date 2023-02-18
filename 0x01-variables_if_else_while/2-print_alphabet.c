@@ -11,8 +11,7 @@ int main(void)
 int i = 65;
 while (i <= 90)
 {
-i = tolower(i);  
-putchar(i);
+putchar(i+32);
 i++;
 }
 return (0);
