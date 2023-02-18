@@ -14,4 +14,5 @@ while (x != 'e' || x != 'q')
 putchar(x);
 x++;
 }
+return (0);
 }
