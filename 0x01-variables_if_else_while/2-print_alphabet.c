@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-int i = 'A';
-while (i <= 'Z')
+int i = 65;
+while (i <= 90)
 {
 putchar(tolower(i));
 i++;
