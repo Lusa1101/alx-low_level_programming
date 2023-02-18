@@ -10,7 +10,7 @@ int main(void)
 char n = '0';
 while (n < 10)
 {
-putchar(n);
+putchar(n%10 + '0');
 n++;
 }
 putchar('\n');
