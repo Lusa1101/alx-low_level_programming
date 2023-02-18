@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 
 /**
  * main - converts a char to a lower case
