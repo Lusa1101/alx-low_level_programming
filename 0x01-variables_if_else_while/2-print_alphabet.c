@@ -11,8 +11,9 @@ int main(void)
 int i = 65;
 while (i <= 90)
 {
-putchar(i+32);
+putchar(i + 32);
 i++;
 }
+putchar('\n');
 return (0);
 }
