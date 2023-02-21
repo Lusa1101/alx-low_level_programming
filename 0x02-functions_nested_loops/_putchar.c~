@@ -1,0 +1,6 @@
+#include "_putchar"
+
+char _putchar(char x)
+{
+return x;
+}
