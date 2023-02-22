@@ -5,7 +5,7 @@
  *
  * Return: Always 1 for any characters
  */
-int _isalpha (int c)
+int _isalpha(int c)
 {
 if (c >= 'a' && c <= 'z')
 return (1);
