@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * jack_bauer - prints every second of the 24 hours
+ *
+ * Return: Each second per line
+ */
 void jack_bauer(void)
 {
 int a = 0, b = 0, c = 0, d = 0;
@@ -20,6 +25,7 @@ _putchar(b % 10 + '0');
 _putchar(':');
 _putchar(c % 10 + '0');
 _putchar(d % 10 + '0');
+_putchar('\n');
 
 if (a == 2 && b == 3)
 {
@@ -39,4 +45,5 @@ b++;
 }
 
 a++;
+}
 }
