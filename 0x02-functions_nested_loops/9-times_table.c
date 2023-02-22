@@ -15,7 +15,7 @@ b = 0;
 while (b < 10)
 {
 int sol = a * b;
-_putchar(sol % 10 + '0');
+_putchar(sol + '0');
 
 if (b != 9)
 {
