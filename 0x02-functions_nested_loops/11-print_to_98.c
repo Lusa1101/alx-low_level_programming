@@ -11,7 +11,6 @@ int n = m;
   
 while (n <= 98)
 {
-n = n + 1;
 _putchar(n % 10 + '0');
 
 if (n != 98)
@@ -23,7 +22,6 @@ n++;
 }
 while ( n >= 98)
 {
-n = n - 1;
 _putchar(n % 10 + '0');
 
 if (n != 98)
