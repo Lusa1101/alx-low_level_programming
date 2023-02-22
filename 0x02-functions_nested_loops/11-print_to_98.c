@@ -20,8 +20,8 @@ _putchar(',');
 _putchar(' ');
 }
 n++;
-)
-while ( n => 98)
+}
+while ( n >= 98)
 {
 n = n - 1;
 _putchar(n % 10 + '0');
