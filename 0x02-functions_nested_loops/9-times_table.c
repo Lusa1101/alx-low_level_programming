@@ -9,10 +9,10 @@ void times_table(void)
 {
 int a = 0, b = 0;
 
-while (a < 9)
+while (a < 10)
 {
 b = 0;
-while (b < 9)
+while (b < 10)
 {
 int sol = a * b;
 _putchar(sol % 10 + '0');
