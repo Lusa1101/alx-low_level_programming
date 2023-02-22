@@ -10,10 +10,10 @@ int main(void)
 char var[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 int i = 0;
 
-while (i < 9)
+while (i < 8)
 {
 _putchar(var[i]);
- i++;
+i++;
 }
 _putchar('\n');
 return (0);
