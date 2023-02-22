@@ -14,6 +14,6 @@ while (i < 9)
 {
 _putchar(var[i]);
 }
-
+ _putchar('\n');
 return (0);
 }
