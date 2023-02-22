@@ -5,15 +5,22 @@
  *
  * Return: ALways 0
  */
-int main(void)
+
+print_alphabet()
 {
-int i = 65;
+  int i = 65;
 
 while (i < 9)
 {
 _putchar(i);
 }
 _putchar('\n');
+}
+
+int main(void)
+{
+
+print_alphabet();
 
 return (0);
 }
