@@ -7,9 +7,9 @@
  */
 void jack_bauer(void)
 {
-int a = 0, b = 0, c = 0, d = 0;
+int a = 0, b = 0, c = 0, d = 0, count = 0;
 
-while (a < 2)
+while (a < 3)
 {
 b = 0;
 while (b < 10)
@@ -27,12 +27,10 @@ _putchar(c % 10 + '0');
 _putchar(d % 10 + '0');
 _putchar('\n');
 
-if (a == 2 && b == 3)
-{
-if (c == 5 && d == 9)
+if (count == 719)
 break;
-}
 
+count++;
 d++;
 }
 
