@@ -7,11 +7,12 @@
  */
 void print_alphabets_x10(void)
 {
-int i = 65, count = 0;
+char i = 'a';
+int count = 0;
 
-while (count != 10)
+while (count < 10)
 {
-while (i < 91)
+while (i <= 'z')
 {
 _putchar(i);
 i++;
