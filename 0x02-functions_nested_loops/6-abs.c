@@ -8,7 +8,10 @@
 int _abs(int i)
 {
 if (i < 0)
-return (i - 2(i));
+{
+i = i - 2(i);
+return (i);
+}
 else
 return (i);
 }
