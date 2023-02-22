@@ -18,7 +18,7 @@ c = 0;
 while (c < 6)
 {
 d = 0;
-while(d < 10)
+while (d < 10)
 {
 _putchar(a % 10 + '0');
 _putchar(b % 10 + '0');
@@ -27,10 +27,12 @@ _putchar(c % 10 + '0');
 _putchar(d % 10 + '0');
 _putchar('\n');
 
-if (count == 719)
+if (a == 2 && b == 3)
+{
+if (c == 5 && d == 9)
 break;
+}
 
-count++;
 d++;
 }
 
