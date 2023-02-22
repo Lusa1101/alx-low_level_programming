@@ -2,7 +2,7 @@
 
 int main(void)
 {
-print_alphabet_x10();
+print_last_digit(18);
 
 return 0;
 }
