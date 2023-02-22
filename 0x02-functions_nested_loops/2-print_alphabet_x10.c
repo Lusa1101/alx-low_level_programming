@@ -14,7 +14,9 @@ while (count != 10)
 while (i < 91)
 {
 _putchar(i);
+i++;
 }
 _putchar('\n');
+count += 1;
 }
 }
