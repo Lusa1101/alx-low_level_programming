@@ -5,30 +5,32 @@
  *
  * Return: Always the value
  */
-void print_to_98(int n)
+void print_to_98(int m)
 {
-  while (n <= 98)
-    {
-      n = n + 1;
-      _putchar(n % 10 + '0');
+int n = m;
+  
+while (n <= 98)
+{
+n = n + 1;
+_putchar(n % 10 + '0');
 
-      if (n != 98)
-	{
-	  _putchar(',');
-	  _putchar(' ');
-	}
-      n++;
-     )
-    while ( n => 98)
-      {
-	n = n - 1;
-	_putchar(n % 10 + '0');
+if (n != 98)
+{
+_putchar(',');
+_putchar(' ');
+}
+n++;
+)
+while ( n => 98)
+{
+n = n - 1;
+_putchar(n % 10 + '0');
 
-	if (n != 98)
-	  {
-	    _putchar(',');
-	    _putchar(' ');
-	  }
-	n--;
-      }
+if (n != 98)
+{
+_putchar(',');
+_putchar(' ');
+}
+n--;
+}
 }
