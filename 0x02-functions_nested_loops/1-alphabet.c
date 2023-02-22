@@ -6,7 +6,7 @@
  * Return: ALways 0
  */
 
-void print_alphabet()
+void print_alphabet(void)
 {
 int i = 65;
 
