@@ -13,7 +13,8 @@ int i = 0;
 while (i < 9)
 {
 _putchar(var[i]);
+i++:
 }
- _putchar('\n');
+_putchar('\n');
 return (0);
 }
