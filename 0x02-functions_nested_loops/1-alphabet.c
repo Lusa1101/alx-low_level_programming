@@ -6,11 +6,11 @@
  * Return: ALways 0
  */
 
-print_alphabet()
+void print_alphabet()
 {
-  int i = 65;
+int i = 65;
 
-while (i < 9)
+while (i < 91)
 {
 _putchar(i);
 }
