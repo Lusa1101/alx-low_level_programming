@@ -7,12 +7,18 @@
  */
 void jack_bauer(void)
 {
-int a = 0, b = 0, c = 0, d = 0;
+int a = 0, b = 0, c = 0, d = 0, x;
 
 while (a < 3)
 {
+
+if (a == 2)
+x = 4;
+else
+x = 10;
+
 b = 0;
-while (b < 10)
+while (b < x)
 {
 c = 0;
 while (c < 6)
