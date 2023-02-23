@@ -18,8 +18,9 @@ i++;
 }
 
 _putchar('\\');
-
+_putchar('\n');
 n--;
 }
+
 _putchar('\n');
 }
