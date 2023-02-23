@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - printnts number to 14 ten times
- * 
+ *
  * Return: print the numbers
  */
 
@@ -21,6 +21,5 @@ i++;
 _putchar('\n');
 j++;
 }
-
 _putchar('\n');
 }
