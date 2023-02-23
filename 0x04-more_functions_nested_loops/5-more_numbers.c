@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - printnts number to 14 ten times
- *
+ * @n: parameter for the number to be printed
  * Return: print the numbers
  */
 int print(int n)
