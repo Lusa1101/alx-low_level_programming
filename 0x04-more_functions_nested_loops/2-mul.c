@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 
 /**
  * mul - multiplies two given numbers
@@ -8,5 +8,6 @@
  */
 int mul(int a, int b)
 {
-return (a * b);
+int ans = a * b;
+return (ans);
 }
