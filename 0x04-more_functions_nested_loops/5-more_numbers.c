@@ -16,9 +16,9 @@ i = 0;
 while (i < 15)
 {
 if (i > 9)
-_putchar(1 % 10 + '0');
+_putchar(1);
 
-_putchar(i % 10 + '0');
+_putchar(i);
 i++;
 }
 _putchar('\n');
