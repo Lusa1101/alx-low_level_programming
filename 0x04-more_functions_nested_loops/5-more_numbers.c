@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - printnts number to 14 ten times
- * @n: parameter for the number to be printed
+ * 
  * Return: print the numbers
  */
 
@@ -15,9 +15,13 @@ while (j < 10)
 i = 0;
 while (i < 15)
 {
-_putchar(i);
+if (i > 9)
+_putchar(1 % 10 + '0');
+
+_putchar(i % 10 + '0');
 i++;
 }
+_putchar('\n');
 j++;
 }
 
