@@ -15,12 +15,17 @@ _putchar(n % 10 + '0');
 
 void more_numbers(void)
 {
-int i = 0;
+int i = 0, j = 0;
 
+while (j < 10)
+{
 while (i < 15)
 {
 print(i);
 i++;
 }
+j++;
+}
+
 _putchar('\n');
 }
