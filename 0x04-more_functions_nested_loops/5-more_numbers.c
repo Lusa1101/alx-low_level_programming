@@ -15,9 +15,6 @@ while (j < 10)
 i = 0;
 while (i < 15)
 {
-if (i > 9)
-_putchar(1);
-
 _putchar(i);
 i++;
 }
