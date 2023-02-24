@@ -5,9 +5,10 @@
  * @size: size of the square
  * Return: the size
  */
-void print_squares(int size)
+void print_square(int size)
 {
 int i = 0, n = size;
+
 while (size > 0)
 {
 i = 0;
