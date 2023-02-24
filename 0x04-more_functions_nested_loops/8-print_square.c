@@ -5,20 +5,18 @@
  * @size: size of the square
  * Return: the size
  */
-void print_square(int size)
+void print_squares(int s)
 {
-int n = 0, p = size;
-
-while (size > 0)
+int i = 0, n = s;
+while (s > 0)
 {
-n = 0;
-while (n < p)
+i = 0;
+while (i < n)
 {
-_putchar('#');
-n++;
+putchar('#');
+i++;
 }
-_putchar('\n');
-size--;
+putchar('\n');
+s--;
 }
-_putchar('\n');
 }
