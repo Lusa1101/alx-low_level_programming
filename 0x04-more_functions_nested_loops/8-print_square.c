@@ -2,21 +2,22 @@
 
 /**
  * print_square - prints a square
- * @s: size of the square
+ * @size: size of the square
  * Return: the size
  */
-void print_squares(int s)
+void print_squares(int size)
 {
-int i = 0, n = s;
-while (s > 0)
+int i = 0, n = size;
+while (size > 0)
 {
 i = 0;
 while (i < n)
 {
-putchar('#');
+_putchar('#');
 i++;
 }
-putchar('\n');
-s--;
+_putchar('\n');
+size--;
 }
+_putchar('\n');
 }
