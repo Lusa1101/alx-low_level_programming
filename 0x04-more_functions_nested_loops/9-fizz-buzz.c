@@ -9,7 +9,7 @@ int main(void)
 {
 int j = 1;
 
-while (j < n + 1)
+while (j < 101)
 {
 if (j % 3 == 0)
 printf("Fizz ");
