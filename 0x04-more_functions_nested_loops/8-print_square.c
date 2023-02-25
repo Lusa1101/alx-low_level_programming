@@ -11,7 +11,7 @@ int i = 0, n = size;
 
 if (size <= 0)
 _putchar('\n');
- 
+
 else
 {
 while (n > 0)
