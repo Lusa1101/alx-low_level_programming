@@ -14,7 +14,7 @@ while (size > 0)
 i = 0;
 while (i < n)
 {
-_putchar('#');
+_putchar(35);
 i++;
 }
 _putchar('\n');
