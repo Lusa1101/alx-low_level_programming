@@ -2,14 +2,13 @@
 
 /**
  * main - prints the fizz buzz test
- *
  * Return: Always 0
  */
 int main(void)
 {
 int j = 1;
 
-while (j < 101)
+while (j <= 100)
 {
 if (j % 3 == 0)
 printf("Fizz ");
@@ -23,5 +22,6 @@ printf("%d ",j);
 j++;
 }
 putchar('\n');
+
 return (0);
 }
