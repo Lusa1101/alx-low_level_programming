@@ -23,6 +23,8 @@ n = (len - 1) / 2;
 else
 n = len / 2;
 
+n++;
+
 while (n < len)
 {
 _putchar(s[n]);
