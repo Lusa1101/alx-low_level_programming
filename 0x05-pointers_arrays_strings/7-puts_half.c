@@ -23,7 +23,7 @@ n = len / 2;
 
 n++;
 
-while (n <= len)
+while (n < len)
 {
 _putchar(s[n]);
 n++;
