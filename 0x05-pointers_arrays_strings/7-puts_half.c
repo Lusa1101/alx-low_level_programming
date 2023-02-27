@@ -6,7 +6,7 @@
  * Return: Nothing
  */
 
-void puts_half(chat *s)
+void puts_half(char *s)
 {
 int len = 0, i = 0, n;
 
