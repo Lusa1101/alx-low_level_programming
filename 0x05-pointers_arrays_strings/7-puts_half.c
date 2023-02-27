@@ -15,17 +15,13 @@ while (s[len] != 0)
 len++;
 }
 
-len--;
-
 if (len / 2 != 0)
 n = (len - 1) / 2;
 
 else
 n = len / 2;
 
-n++;
-
-while (n < len)
+while (n <= len)
 {
 _putchar(s[n]);
 n++;
