@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other number from the first number
- * @s - string that has the numbers to be printed
+ * @s: string that has the numbers to be printed
  * Return: Nothing
  */
 
