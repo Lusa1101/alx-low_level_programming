@@ -8,12 +8,14 @@
 
 void _puts(char *str)
 {
-char name;
 int len;
 
-len = _strlen(name);
-name = *str;
+len = 0;
 
-return (name);
+while (str[len] != '\0')
+{
+_putchar(str[i]);
+len++;
+}
 }
 
