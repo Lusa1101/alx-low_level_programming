@@ -15,5 +15,5 @@ str = *src;
 
 *dest = str;
 
-return (*dest);
+return (dest);
 }
