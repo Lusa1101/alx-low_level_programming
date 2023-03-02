@@ -16,7 +16,6 @@ while (src[i] != '\0')
 if (i >= n)
 break;
 
-
 else
 dest[i] = src[i];
 
