@@ -6,7 +6,7 @@
  * Return: The encoded statement
  */
 
-char * leet(char *str)
+char *leet(char *str)
 {
 int i = 0, j = 0;
 char arr[10] = {'a', 'A', 'e', 'E', 'l', 'L', 't', 'T', 'o', 'O'};
