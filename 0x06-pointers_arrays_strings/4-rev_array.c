@@ -14,7 +14,14 @@ n--;
 
 while (n >= 0)
 {
-_putchar("%d ", a[n]);
+_putchar(a[n]);
+
+if (n != 0)
+{
+_putchar(',');
+_putchar(' ');
+}
+
 n--;
 }
 
