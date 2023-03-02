@@ -1,4 +1,4 @@
-11;rgb:0000/0000/0000#include "main.h"
+#include "main.h"
 
 /**
  * _strncat - function appends two strings at most n bytes
