@@ -21,10 +21,7 @@ if (s1[i] != s2[j])
 n = s1[i] - s2[j];
 break;
 }
-else if (s1[i] == s2[j])
-{
-n = 0;
-break;
+
 }
 j++;
 }
@@ -34,6 +31,8 @@ break;
 
 i++;
 }
+
+n = 0;
 
 return (n);
 }
