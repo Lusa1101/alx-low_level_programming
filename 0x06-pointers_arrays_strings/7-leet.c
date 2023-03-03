@@ -19,7 +19,7 @@ j = 0;
 while (j < 10)
 {
 if (str[i] == arr[j])
-str[i] == num[i];
+str[i] = num[i];
 
 j++;
 }
