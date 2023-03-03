@@ -8,21 +8,24 @@
 
 char *rot13(char *str)
 {
-int i = 0;
+int i = 0, j = 0;
+
+char first[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'};
+char second[] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y', 'Z'};
 
 while (str[i] != '\0')
 {
-if (str[i] >= 65 && str[i] <= 77)
-str[i] += 13;
+j = 0;
+while (j < 26)
+{
+if (str[i] == first[j])
+str[i] = second[j];
 
-else if (str[i] >= 97 && str[i] <= 109)
-str[i] += 13;
+else if (str[i] == second[j])
+str[i] = first[j];
 
-else if (str[i] >= 78 && str[i] <= 90)
-str[i] -= 13;
-
-else if (str[i] >= 108 && str[i] <= 122)
-str[i] -= 13;
+j++;
+}
 
 i++;
 }
