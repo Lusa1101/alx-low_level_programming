@@ -5,3 +5,4 @@ More and more on pointers, strings and arrays.
 
 
 
+2-strchr -> function that locates a character in a string.
