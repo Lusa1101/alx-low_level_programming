@@ -14,7 +14,7 @@ void _puts(char *str)
 if (str[0] == '\0')
 return;
 
-_putchar(str[0]);
+write(1, &str[0], 1);
 _puts(str + 1);
 
 }
@@ -25,5 +25,5 @@ if (s[0] == '\0')
 return;
 
 _puts(s);
-_putchar('\n');
+_puts("\n");
 }
