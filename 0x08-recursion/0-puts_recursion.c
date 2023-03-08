@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * _puts_recursion - prints a string
- * _puts - prints a string of characters
- * @str: the string to be printed by _puts
+ * _puts_recursion - prints a string from the main
+ * _puts - prints a string
+ * @str: the string to be printed in _puts
  * @s: the string to be printed by _puts_recursion
  * Return: the string
  */
@@ -18,6 +18,7 @@ write(1, &str[0], 1);
 _puts(str + 1);
 
 }
+
 
 void _puts_recursion(char *s)
 {
