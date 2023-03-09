@@ -9,25 +9,14 @@
  * Return: the string
  */
 
-void _puts(char *str)
-{
-if (str[0] == '\0')
-return;
-
-write(1, &str[0], 1);
-_puts(str + 1);
-
-}
-
-
 void _puts_recursion(char *s)
 {
-if (s[0] == '\0')
+if (s* == '\0')
 {
-_puts("\n");
+_putchar('\n');
 return;
 }
 
-_puts(s);
-_puts("\n");
+_putchar(*s);
+_puts_recursion(s + 1);
 }
