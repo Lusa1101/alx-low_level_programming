@@ -7,10 +7,18 @@
  * Return: a ptr
  */
 
+int _strlen(char *str)
+{
+if (str[0] == '\0')
+return (0);
+
+return (1 + _strlen(str + 1);
+}
+
 char *_strdup(char *str)
 {
 char *t;
-int s = str.size(), i = 0;
+int s = _strlen(str), i = 0;
 
 if (str == NULL)
 return (NULL);
