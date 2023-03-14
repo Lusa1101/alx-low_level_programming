@@ -14,7 +14,7 @@ char *arr;
 unsigned int i = 0;
 
 if (size == 0)
-return ("\0");
+return (NULL);
 
 arr = malloc(sizeof(*arr) * size);
 
