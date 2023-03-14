@@ -14,7 +14,7 @@ char *arr;
 unsigned int i = 0;
 
 if (size == 0)
-return ("NULL");
+return ("\0");
 
 arr = malloc(sizeof(*arr) * size);
 
@@ -26,5 +26,5 @@ i++;
 
 return (arr);
 
-free (arr);
+free(arr);
 }
