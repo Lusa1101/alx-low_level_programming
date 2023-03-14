@@ -17,7 +17,7 @@ arr = malloc(sizeof(*arr) * size);
 while (i < size)
 {
 arr[i] = c;
-i++
+i++;
 }
 
 free(arr);
