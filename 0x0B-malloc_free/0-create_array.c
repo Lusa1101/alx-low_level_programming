@@ -21,4 +21,6 @@ i++;
 }
 
 free(arr);
+
+return (arr);
 }
