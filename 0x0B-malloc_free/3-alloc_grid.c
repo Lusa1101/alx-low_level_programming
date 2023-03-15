@@ -33,5 +33,6 @@ i++;
 
 return (arr);
 
+free(*arr);
 free(arr);
 }
