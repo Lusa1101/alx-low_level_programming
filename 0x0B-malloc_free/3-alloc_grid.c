@@ -15,10 +15,9 @@ int **arr;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-*arr = malloc (sizeof(int) * height);
-
 arr = malloc (sizeof(int) * width);
 
+*arr = malloc (sizeof(int) * height);
 
 return (arr);
 }
