@@ -28,7 +28,7 @@ arr[i][j] = 0;
 j++;
 }
 
-i++
+i++;
 }
 
 return (arr);
