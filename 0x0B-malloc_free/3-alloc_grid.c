@@ -18,7 +18,7 @@ return (NULL);
 
 arr = malloc(sizeof(int) * width);
 
-*arr = malloc(sizeof(int) * height);
+*arr = malloc(sizeof(*arr) * height);
 
 while (i < width)
 {
@@ -31,5 +31,5 @@ j++;
 i++;
 }
 
-return (**arr);
+return (arr);
 }
