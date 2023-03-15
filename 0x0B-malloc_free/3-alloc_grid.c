@@ -16,9 +16,7 @@ int i = 0, j = 0;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-arr = malloc(sizeof(int) * width);
-
-*arr = malloc(sizeof(*arr) * height);
+arr = malloc(sizeof(int) * width + sizeof(int) * height);
 
 while (i < width)
 {
