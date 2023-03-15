@@ -3,6 +3,7 @@
 
 /**
  * str_concat - concatenates two strings
+ * _strlen - the length of a string
  * @s1: the first string
  * @s2: the second string
  * Return: the concat string
@@ -22,10 +23,13 @@ int len = _strlen(s1) + _strlen(s2);
 char *t;
 int i = 0, j = 0;
 
-if (s1 == NULL && s2 == NULL)
-return (NULL);
+if (s1 == NULL)
+s1 = "";
 
-t = malloc(sizeof(*t) * len);
+else if (s2 == NULL)
+s2 = "";
+
+t = malloc((sizeof(*t) * len) + 1);
 
 while (s1[i] != '\0')
 {
